@@ -36,7 +36,7 @@ jobs:
     # Send a Pull Request
     ############################################################################################
     - name: Create a PR
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v6
       id: cpr
       with:
         path: "${{ github.workspace }}"
